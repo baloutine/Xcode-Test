@@ -474,6 +474,7 @@
 				243517CF1774B1000043DF2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		243517D01774B1000043DF2C /* Build configuration list for PBXNativeTarget "Test ApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +483,7 @@
 				243517D21774B1000043DF2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
