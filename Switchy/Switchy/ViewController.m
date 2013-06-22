@@ -14,6 +14,7 @@
 
 @implementation ViewController
 
+//Sets On state for the switches (these are booleans); is the 'Force On' button
 -(IBAction)turnOn:(id)sender {
     
     [sw1 setState:YES];
@@ -23,6 +24,7 @@
     [sw5 setState:YES];
 }
 
+//Sets Off state for the switches (these are booleans); is the 'Force Off' button
 -(IBAction)turnOff:(id)sender {
     
     [sw1 setState:NO];
@@ -39,6 +41,10 @@
     
     // for demo purpose, i create 5 switches with different appearances.
     
+    
+    //All the code below is just the color and shininess of the switches
+    
+    //Switch 1
     sw1 = [[Switchy alloc] initWithFrame:CGRectMake(0, 0, 79, 27) withOnLabel:@"ON" andOfflabel:@"OFF"
                      withContainerColor1:[UIColor colorWithRed:0.1 green:0.7 blue:1.0 alpha:1.0]
                       andContainerColor2:[UIColor colorWithRed:0.1 green:0.7 blue:0.9 alpha:1.0]
@@ -47,6 +53,7 @@
     [self.view addSubview:sw1];
     sw1.center = CGPointMake(160, 50);
     
+    //Switch 2
     sw2 = [[Switchy alloc] initWithFrame:CGRectMake(0, 0, 115, 60) withOnLabel:@"I" andOfflabel:@"O"
                      withContainerColor1:[UIColor colorWithRed:1.0 green:0.1 blue:0.1 alpha:1.0]
                       andContainerColor2:[UIColor colorWithRed:0.4 green:0.1 blue:0.1 alpha:1.0]
@@ -55,6 +62,7 @@
     [self.view addSubview:sw2];
     sw2.center = CGPointMake(160, 130);
     
+    //Switch 3
     sw3 = [[Switchy alloc] initWithFrame:CGRectMake(0, 0, 310, 20) withOnLabel:@"A Long Switch" andOfflabel:@"Is Pretty Outrages"
                      withContainerColor1:[UIColor colorWithRed:0 green:0 blue:0 alpha:1.0]
                       andContainerColor2:[UIColor colorWithRed:0 green:0 blue:0 alpha:1.0]
@@ -63,6 +71,7 @@
     [self.view addSubview:sw3];
     sw3.center = CGPointMake(160, 210);
     
+    //Switch 4
     sw4 = [[Switchy alloc] initWithFrame:CGRectMake(0, 0, 200, 100) withOnLabel:@"Y" andOfflabel:@"N"
                      withContainerColor1:[UIColor colorWithRed:0.1 green:0.9 blue:0.1 alpha:1.0]
                       andContainerColor2:[UIColor colorWithRed:0.3 green:0.9 blue:0.3 alpha:1.0]
@@ -71,6 +80,7 @@
     [self.view addSubview:sw4];
     sw4.center = CGPointMake(160, 290);
     
+    //Switch 5
     sw5 = [[Switchy alloc] initWithFrame:CGRectMake(0, 0, 40, 20) withOnLabel:@"+" andOfflabel:@"-"
                      withContainerColor1:[UIColor colorWithRed:0.1 green:0.1 blue:0.1 alpha:1.0]
                       andContainerColor2:[UIColor colorWithRed:0.3 green:0.3 blue:0.3 alpha:1.0]

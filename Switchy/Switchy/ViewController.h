@@ -11,6 +11,7 @@
 
 @interface ViewController : UIViewController {
     
+    //Sets the variables for each switch
     Switchy *sw1, *sw2, *sw3, *sw4, *sw5;
     
 }

@@ -22,7 +22,7 @@
 
 @synthesize isOn, switcher, container, onLabel, offLabel;
 
-float knobSize = 0.9;
+float knobSize = 0.7;
 
 
 -(void)dealloc {
